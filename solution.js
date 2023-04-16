@@ -13,3 +13,10 @@ console.log(nearestSq(100)) // 100
 console.log(nearestSq(111)) // 121
 
 
+// Alternate Solution
+
+const nearestSquare = (n) => Math.round(n**0.5)**2
+
+console.log(nearestSquare(10)) // 9
+console.log(nearestSquare(100)) // 100
+console.log(nearestSquare(111)) // 121
